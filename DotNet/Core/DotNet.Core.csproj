@@ -42,5 +42,9 @@
       <ProjectReference Include="..\..\Share\Share.SourceGenerator\Share.SourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
       <ProjectReference Include="..\ThirdParty\DotNet.ThirdParty.csproj" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="MemoryPack" Version="1.21.3" />
+    </ItemGroup>
 
 </Project>

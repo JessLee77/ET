@@ -50,4 +50,9 @@
         <ProjectReference Include="..\Core\DotNet.Core.csproj" />
         <ProjectReference Include="..\ThirdParty\DotNet.ThirdParty.csproj" />
     </ItemGroup> 
+    <ItemGroup>
+      <Reference Include="MongoDB.Bson, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Unity\Assets\Plugins\MongoDB\MongoDB.Bson.dll</HintPath>
+      </Reference>
+    </ItemGroup> 
 </Project>

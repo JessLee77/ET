@@ -24,7 +24,9 @@
         <Optimize>true</Optimize>
     </PropertyGroup>
     <ItemGroup>
-        
+      <Reference Include="CommandLine, Version=2.8.0.0, Culture=neutral, PublicKeyToken=5a870481e358d379">
+        <HintPath>..\..\Unity\Assets\Plugins\CommandLine.dll</HintPath>
+      </Reference>
     </ItemGroup> 
     <ItemGroup> 
         <ProjectReference Include="..\..\Share\Analyzer\Share.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />

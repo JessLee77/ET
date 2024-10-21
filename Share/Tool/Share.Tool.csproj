@@ -58,5 +58,15 @@
       <ProjectReference Include="..\..\DotNet\Core\DotNet.Core.csproj" />
       <ProjectReference Include="..\..\DotNet\ThirdParty\DotNet.ThirdParty.csproj" />
     </ItemGroup>
+    
+    <ItemGroup>
+      <Reference Include="MongoDB.Bson, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\Unity\Assets\Plugins\MongoDB\MongoDB.Bson.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Include="EPPlus" Version="5.8.8" />
+    </ItemGroup>
 
 </Project>
